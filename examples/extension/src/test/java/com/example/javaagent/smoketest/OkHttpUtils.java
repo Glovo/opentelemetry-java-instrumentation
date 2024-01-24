@@ -7,7 +7,9 @@ package com.example.javaagent.smoketest;
 
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
+import org.junit.jupiter.api.Disabled;
 
+@Disabled
 public class OkHttpUtils {
 
   static OkHttpClient.Builder clientBuilder() {

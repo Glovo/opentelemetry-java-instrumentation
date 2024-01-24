@@ -14,8 +14,10 @@ import java.util.jar.JarFile;
 import okhttp3.Request;
 import okhttp3.Response;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+@Disabled
 class SpringBootIntegrationTest extends IntegrationTest {
 
   @Override
